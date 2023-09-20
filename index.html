@@ -1,14 +1,118 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- meta tags, links to css, etc. -->
-    <meta charset="utf-8">
-    <title>DIG 245 Unbrand</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <style>
+    .triangle1 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top:250px;
+  left:178px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #FFBD33;
+  transform: rotate(-3deg);
+}
+.triangle2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top:121px;
+  left:1182px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid white;
+  transform: rotate(2deg);
+}
+ .sub {
+   position: absolute;
+   z-index: 1;
+   top: 100px;
+   left: 180px;
+   font-family: 'Black Han Sans', sans-serif;
+   font-size: 250px;
+    color: #FFBD33;
+}
 
-    <!-- visible content goes here -->
-    <h1>DIG 245 Unbrand</h1>
+.way {
+   position: absolute;
+   z-index: 1;
+   top: 100px;
+   left: 690px;
+   font-family: 'Black Han Sans', sans-serif;
+   font-size: 250px;
+   color: #FFFFFF;
+}
+.eat_trash {
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 230px;
+    font-size: 60px;
+    width: 520px;
+    height: 40px;
+    color: white;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.then_crash {
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 810px;
+    font-size: 60px;
+    width: 520px;
+    height: 40px;
+    color: #FFBD33;
+  font-family: 'Merriweather Sans', sans-serif;
+}
 
-</body>
+.background{
+  position: absolute;
+  z-index: -1;
+  top:0px;
+  left: 0px;
+  width:1440px;
+  height:1024px;
+  background-color: #008e4f;
+}
+.recycle{
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top:400px;
+  left:600px;
+}
+.cssBackgroundImg {
+background-image: url(https://www.milehighonthecheap.com/lotc-cms/wp-content/uploads/2022/08/subway-logo.png);
+  z-index: 1;
+width: 400px;
+height: 500px;
+margin-top : 300px;
+ margin-left: 480px;
+}
+
+.cssBackgroundImg:hover {
+background-image: url(https://cdn-icons-png.flaticon.com/512/542/542724.png);
+cursor: crosshair;
+}
+
+@font-face {
+font-family: "Black Hans Sans";
+src: url(SANSBLACK.woff) format("woff"),
+url(SansBlack.ttf) format("truetype");
+  </style>
+  <body>
+    <p1>
+     <div class="sub"><b>SUB</b></div>
+     <div class="way"><b>WAY</b></div>
+    <div class="eat_trash"><b>EAT TRASH</b></div>
+    <div class="then_crash"><b><i>THEN CRASH</i></b></div>
+
+</p1>
+    <div class = "background"></div>
+ <div class="triangle1"></div>
+  <div class="triangle2"></div>
+<div class="cssBackgroundImg"></div>             
+  </body>
 </html>
